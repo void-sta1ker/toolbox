@@ -1,0 +1,10 @@
+Host me.github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/me_rsa
+
+Host work.github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/work_rsa
+
